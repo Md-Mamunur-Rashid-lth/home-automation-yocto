@@ -1,0 +1,9 @@
+[Unit]
+Description=Temperature Service
+
+[Service]
+ExecStart=/usr/bin/temperature_service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

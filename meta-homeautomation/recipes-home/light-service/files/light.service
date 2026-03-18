@@ -1,0 +1,9 @@
+[Unit]
+Description=Light Service
+
+[Service]
+ExecStart=/usr/bin/light_service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

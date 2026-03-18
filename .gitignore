@@ -1,0 +1,6 @@
+build/
+tmp/
+sstate-cache/
+downloads/
+*.o
+*.log

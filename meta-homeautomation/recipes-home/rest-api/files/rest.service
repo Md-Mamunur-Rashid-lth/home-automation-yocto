@@ -1,0 +1,10 @@
+[Unit]
+Description=REST API Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rest_server
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
